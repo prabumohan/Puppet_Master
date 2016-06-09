@@ -1,0 +1,14 @@
+data/src/main/config/log4j.properties.i
+data/gvc-all.properties.i
+data/ReadMe.txt.i
+data/src/main/config/tangosol-coherence-override.xml.i
+data/pom.xml.i
+data/src/main/resources/version.txt.i
+data/.hgignore.i
+data/ReleaseNotes/ReleaseNotes_1.0.0/ReleseNotes_1.0.0.txt.i
+data/src/main/assembly/cashout-grid.xml.i
+data/finbet-dev.properties.i
+data/src/main/config/coherence-cache-config.xml.i
+data/src/main/scripts/run.bat.i
+data/local.properties.i
+data/src/main/resources/build.properties.i
