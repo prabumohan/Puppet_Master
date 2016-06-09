@@ -5,7 +5,7 @@ node 'node1' {
     docroot => '/var/www/html'
   }
 }
-node 'lamp-1' {
+node 'lamp-1.localdomain' {
   class { 'apache': }             # use apache module
   apache::vhost { 'www.example.com':  # define vhost resource
     port    => '80',
