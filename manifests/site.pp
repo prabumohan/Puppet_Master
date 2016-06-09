@@ -1,5 +1,9 @@
-file {'/tmp/example-ip':                                            # resource type file and filename
-  ensure  => present,                                               # make sure it exists
-  mode    => '0644',                                                # file permissions
-  content => "Ruby version ${puppetversion}.\n",  # note the ipaddress_eth0 fact
+node 'node1' {
+  class { 'apache': }             # use apache module
+  apache::vhost { 'example.com':  # define vhost resource
+    port    => '80',
+    docroot => '/var/www/html'
+  }
 }
+
+# node default {}       # uncomment this line if it doesn't already exist in your manifest
