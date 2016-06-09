@@ -1,3 +1,0 @@
-jenkins.groupId ${project.groupId}
-jenkins.artifactId ${project.artifactId}
-jenkins.version ${project.version}
